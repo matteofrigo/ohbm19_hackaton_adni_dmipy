@@ -3,14 +3,17 @@
 """ 
 Script to generate the feature matrices
 	
-usage : python create_feature_matrix.py --input_maps '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/4d_FA.nii.gz' '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/4d_FA.nii.gz' --atlas_labels '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/JHU-ICBM-FSL/JHU-ICBM-labels-2mm.nii.gz' --output_matrix1 '/Users/sebastientourbier/Desktop/ohbmhackathon19/output_matrix1.csv' --output_matrix2 '/Users/sebastientourbier/Desktop/ohbmhackathon19/output_matrix2.csv'
+Usage : python create_feature_matrix.py --input_maps map1_path map2_path --atlas_labels atlas_label_path --output_matrix1 output_matrix1_path --output_matrix2 output_matrix1_path
 
-author : Sebastien Tourbier (sebastientourbier)
+Example :
 
-date : June 07 2019  
+cd <code folder>
+python create_feature_matrix.py --input_maps './data/4d_FA.nii.gz' './data/4d_FA.nii.gz' --atlas_labels './data/JHU-ICBM-FSL/JHU-ICBM-labels-2mm.nii.gz' --output_matrix1 './data/output_matrix1.csv' --output_matrix2 './data/output_matrix2.csv'
+
+Author : Sebastien Tourbier (sebastientourbier)
+
+Date : June 07 2019  
 """
-
-# usage: python create_feature_matrix.py --input_maps '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/4d_FA.nii.gz' '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/4d_FA.nii.gz' --atlas_labels '/Users/sebastientourbier/Desktop/ohbmhackathon19/data/JHU-ICBM-FSL/JHU-ICBM-labels-2mm.nii.gz' --output_matrix1 '/Users/sebastientourbier/Desktop/ohbmhackathon19/output_matrix1.csv' --output_matrix2 '/Users/sebastientourbier/Desktop/ohbmhackathon19/output_matrix2.csv'
 
 import os
 import sys
