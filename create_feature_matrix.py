@@ -12,7 +12,7 @@ Usage : python create_feature_matrix.py --input_maps map1_path map2_path --atlas
 Example :
 
 cd <code folder>
-python create_feature_matrix.py --input_maps './data/4d_FA.nii.gz' './data/4d_FA.nii.gz' --atlas_rois './data/JHU-ICBM-FSL/JHU-ICBM-labels-2mm.nii.gz' --o_feature_block './data/o_feature_block.csv' --o_roi_block './data/o_roi_block.csv'
+python create_feature_matrix.py --input_maps './data/adni/mcmdi_ecvf_all_subjects.nii.gz' './data/adni/mcmdi_icvf_all_subjects.nii.gz' './data/adni/mcmdi_lambda_all_subjects.nii.gz' './data/adni/noddi_ecvf_all_subjects.nii.gz' './data/adni/noddi_icvf_all_subjects.nii.gz' './data/adni/noddi_icvf_all_subjects.nii.gz' --atlas_rois './data/voxelatlas_mni.nii.gz' --o_feature_block './data/o_feature_block.csv' --o_roi_block './data/o_roi_block.csv'
 
 Author : Sebastien Tourbier (sebastientourbier)
 
@@ -70,6 +70,9 @@ def process(input_features, atlas_rois, o_feature_block, o_roi_block):
         feature_cnt = 0
 
         for file in input_features:
+
+            print('Process map {}...'.format(file))
+
             feature = nib.load(file).get_data()[:, :, :, subj - 1]
             roi_cnt = 0
 
