@@ -1,4 +1,5 @@
 .DS_Store
 
+data/adni
 data/output_matrix1.csv
 data/output_matrix2.csv
