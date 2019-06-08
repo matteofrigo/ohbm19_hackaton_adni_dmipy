@@ -4,7 +4,7 @@ Tracking ADNI via dMRI biomarkers
 
 The Team of `#neuroheroes`
 --------------------------
-Julio , Amr, Franz, Marina, Nicolas, Francesco, Matteo, Sebastien, Talia, Rutger
+Julio, Amr, Franz, Marina, Nicolas, Francesco, Matteo, Sebastien, Talia, Rutger
 
 US, Switzerland, Spain, France, Italy
 
@@ -35,6 +35,6 @@ We welcome suggestions on
 
 Join us
 =======
-https://mattermost.brainhack.org/brainhack/channels/**adni-dmipy**
+https://mattermost.brainhack.org/brainhack/channels/adni-dmipy
 
 https://github.com/matteofrigo/ohbm19hackaton_adnidmipy
