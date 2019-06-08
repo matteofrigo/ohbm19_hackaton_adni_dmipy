@@ -20,7 +20,7 @@ Here
 * Voxel-wise Effect Size estimation
 * JHU-ROI feature extraction
 
-![](img/effectsize.png)
+![](img/noddi_icvf.png)
 
 What we're going to have
 * Feature tables
