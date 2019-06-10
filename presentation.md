@@ -1,4 +1,4 @@
-Tracking ADNI via dMRI biomarkers
+Tracking AD via dMRI biomarkers
 =================================
 ![](img/theplan.png)
 
