@@ -36,6 +36,10 @@ We welcome suggestions on
 
 Join us
 =======
+Julio: `jevillalonr@gmail.com`
+
+Matteo: `matteo.frigo@inria.fr`
+
 https://mattermost.brainhack.org/brainhack/channels/adni-dmipy
 
 https://github.com/matteofrigo/ohbm19hackaton_adnidmipy
